@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="teal_700">#00796B</color> <!-- Màu xanh teal đậm -->
+    <color name="lightGray">#F5F5F5</color>
+    <color name="primaryColor">#6200EE</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="backgroundLight">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="gray">#BDBDBD</color>
+
+
+</resources>

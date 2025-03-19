@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Check Working</string>
+    <string name="accessibility_service_description">Dịch vụ này giúp theo dõi thông báo của ứng dụng khác.</string>
+
+</resources>
