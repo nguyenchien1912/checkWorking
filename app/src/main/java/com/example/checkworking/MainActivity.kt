@@ -248,7 +248,7 @@ class MainActivity : AppCompatActivity() {
                     mBinding.tvProgressPercent.text = "${100}%"
                 }
 
-                if (time - timeIn >= 13*60*60*1000 || time - timeOff > (3*60 + 10)*60+1000) {
+                if (time - timeIn >= 13*60*60*1000 || time - timeOff > (3*60 + 10)*60*1000) {
                     stopTimer()
                 }
             }

@@ -179,7 +179,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:cardCornerRadius="12dp"
-        android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/circularProgress"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
@@ -215,7 +214,8 @@
                     android:id="@+id/offLast"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1/2 off last"/>
+                    android:text="1/2 off last"
+                    android:visibility="gone"/>
             </RadioGroup>
 
             <LinearLayout
@@ -224,6 +224,7 @@
                 android:orientation="vertical"
                 android:layout_weight="1"
                 android:layout_gravity="center"
+                android:visibility="gone"
                 android:gravity="center">
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnEditTimeIn"
